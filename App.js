@@ -5,6 +5,7 @@ const Container = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+  background: hsla(232, 11%, 30%, 0.9);
 `
 
 const Output = styled.View`
