@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/native'
+import { StatusBar } from 'react-native'
 
 const Container = styled.View`
   flex: 1;
@@ -112,6 +113,7 @@ export default function App() {
 
   return (
     <Container>
+      <StatusBar />
       <Output>
         <OutputValue>{displayValue}</OutputValue>
       </Output>
